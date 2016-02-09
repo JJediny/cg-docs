@@ -21,7 +21,10 @@
         <!-- start logo -->
         <h2 class="header-title">
           <a href="https://cloud.gov" class="logo" title="Home">
-            <img src="/img/logo.svg" alt="Cloud.gov" />
+            <svg class="logo">
+              <use xlink:href="{{ '/assets/img/icons.svg#logo' |
+                 prepend: site.baseurl }}"/>
+            </svg>
           </a>
         </h2>
         <!--end logo -->
